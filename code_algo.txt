@@ -1,0 +1,30 @@
+Algo_Exo
+
+Dessiner un carré en contour * et rempli de +.
+
+VAR l,L,a,b:ENTIER
+
+BEGIN
+
+ECRIRE "Entrez la largeur l"
+Lire l
+ECRIRE "Entrez la longueur L"
+Lire L
+
+POUR a DE 1 à l FAIRE
+
+	POUR b DE 1 à L FAIRE 
+	
+		SI a=1 OU a=l OU b=1 OU b=L ALORS
+			ECRIRE *
+		SINON
+			ECRIRE +
+ECRIRE \n
+
+
+END
+
+
+	
+
+
